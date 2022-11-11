@@ -1,0 +1,15 @@
+﻿{
+  "GameSettings": {
+    "Browser": "Chrome",
+
+    "ValidCreditCardNumber": "1234567890123456",
+    "ValidExpirationDate": "12/2023",
+    "ValidCvc": "123",
+
+    "InvalidCreditCardNumber": "12345",
+    "InvalidExpirationDate": "36/30",
+    "InvalidCvc": "000a",
+
+    "Website": "http://localhost/paymentExam"
+  }
+}
