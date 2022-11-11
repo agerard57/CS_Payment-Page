@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Workshop noté</title>
+  </head>
+
+  <body>
+    <form method="POST" action="paymentConfirmed.html">
+      Numéro de carte (16 chiffres)
+      <input
+        pattern="[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"
+        required
+        type="text"
+        id="creditCardNumber"
+      />
+      <br />
+      Date d'expiration (MM/YYYY)
+      <input
+        pattern="[0-9][0-9]\/[0-9][0-9][0-9][0-9]"
+        required
+        type="text"
+        id="expirationDate"
+      />
+      <br />
+      CVC (3 Chiffres)
+      <input pattern="[0-9][0-9][0-9]" required type="text" id="cvc" />
+      <br />
+      <button type="submit" id="submitCard">Submit</button>
+    </form>
+  </body>
+</html>
